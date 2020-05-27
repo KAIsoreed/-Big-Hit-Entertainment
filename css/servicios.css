@@ -1,0 +1,527 @@
+* {
+	margin: 0;
+  padding: 0;
+  -webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box ; 
+
+}
+
+
+body {
+
+  background-image: url(../Image/fondo.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow-x:hidden;
+  
+  
+  
+  
+}
+
+.menu_bar {
+    display: none;
+  }
+  
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 2000;
+
+}
+
+header nav {
+	background: rgba(0, 0, 0, 0.2); 
+	z-index: 2000;
+	
+}
+
+header nav .logotipo .logo img {
+	width: 90px;
+	display: block;
+	float: right;
+	padding: 4px;
+	margin-right: 50px;
+
+}
+
+header nav ul {
+	text-decoration: none;
+}
+
+header nav ul li {
+	display: inline-block;
+	position: relative;
+}
+
+header nav ul li:hover {
+     background:#99D2B1;
+}
+
+header nav ul li a{
+	color: #fff;
+	display: block;
+	text-decoration: none;
+  padding: 20px;
+  
+  text-decoration: none;
+}
+
+header nav ul li a span {
+  margin-right: 10px;
+}
+
+header nav ul li:hover .children {
+       display:block;
+}
+
+header nav ul li .children {
+	display: none;
+	background: #7DCEA0;
+	position: absolute;
+	z-index: 1000;
+	width: 100%;
+}
+
+header nav ul li .children li {
+	display: block;
+
+}
+
+.nn {
+
+  width: 100%;
+  
+}
+
+.all {
+
+  width: 100%;
+  height: 500px;
+  background: rgba(214, 233, 225, 0.836);
+  position: relative;
+  bottom: 5px;
+  padding: 50px 30px 10px 30px;
+
+
+}
+.image {
+
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 9px 12px 24px -4px rgba(0,0,0,0.73);
+  -moz-box-shadow: 9px 12px 24px -4px rgba(0,0,0,0.73);
+  box-shadow: 9px 12px 24px -4px rgba(0,0,0,0.73);
+  transition: all 0.25s;
+}
+
+
+.contenedor {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+.sub-contenedor {
+
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 20px 0 20px;
+ 
+  
+}
+
+.sub-contenedor h1{
+
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+}
+
+.sub-conten h1{
+
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+}
+
+.sub-conten {
+
+width: 30%;
+padding: 40px 30px 0 30px;
+text-align: center;
+margin-right: 100px;
+}
+
+.sub-conten p {
+
+  margin-top: 20px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 30px;
+}
+
+button {
+
+  width: 50%;
+  color: #000000;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 40px;
+  margin-top: 20px;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.2);
+
+}
+
+button:hover {
+
+  background: #a3d0e2;
+  border: none;
+}
+
+
+.cont {
+
+  display: flex;
+  flex-direction: row;
+  margin-top: 260px;
+}
+
+.cont h1 {
+
+font-size: 20px;
+}
+
+.cont h2 {
+
+  font-size: 40px;
+  font-family: 'Abril Fatface', cursive;
+  position: absolute;
+  top: 37cm;
+  left: 5cm;
+  }
+  
+
+
+
+
+
+
+
+
+
+.footer {
+    position: static;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.2); 
+    height: 120px;
+    padding-top: 70px;
+    margin-top: 50px;
+  
+  }
+  
+  .footer ul.social-network li {
+  
+    display:inline;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 6px 8px 3px 8px;
+    border-radius: 1000cm;
+    font-size:25px;	
+    margin-left:60px;
+    font-size: 32px;
+    position: relative;
+    left: 30px;
+    bottom: 23px;
+    
+    
+  
+  }
+  
+  .footer ul.social-network li a {
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+  }
+  
+  .footer .social-network li:hover .icon-twitter {
+    color: #00abf0;
+  }
+  .footer .social-network li:hover .icon-facebook {
+    color: #39579a;
+  }
+  
+  .footer .social-network li:hover .icon-youtube {
+    color: rgb(236, 40, 26); 
+  }
+  
+  
+  .copyright {
+      
+    text-align: right;
+    font-weight: bolder ;
+    color: rgb(0, 0, 0);
+    align-items: flex-end;
+    position: relative;
+    right: 20px;
+    bottom: 48px;
+  
+  
+  }
+
+
+
+@media (max-width: 850px) {
+
+    
+      .menu_bar {
+          z-index: 1000;
+          position: fixed;
+          display: block;
+          width: 100%;
+          top:0;
+          background: rgba(0, 0, 0, 0.2);
+      }
+  
+      .menu_bar .bt-menu {
+          display: block;
+          padding: 20px;
+          overflow: hidden;
+          font-size: 20px;
+          font-weight: bold;
+          text-decoration: none;
+          color: #fff;
+      }
+  
+      
+  
+      .menu_bar span {
+          float: right;
+          font-size: 40px;
+      }
+  
+      .menu_bar img {
+          display:block;
+          width:80px;
+          position: relative;
+      top:3px;
+      
+  
+      }
+  
+      header nav {
+      width: 80%;
+          position: fixed;
+          right:100%;
+      margin: 0px;
+        overflow: scroll;
+          height: calc(100% - 80px);
+          margin-top: 88px;
+      }
+  
+      header nav .logotipo .logo img {
+          display: none;
+      }
+  
+      header nav ul li {
+          display: block;
+          border-bottom: 1px solid rgba(255,255,255,.5);
+      }
+      header nav ul li a {
+          display: block;
+      }
+  
+      header nav ul li .children {
+          width: 100%;
+          position: relative;
+    }
+
+    .all {
+
+      width: 100%;
+      height: 1400px;
+      background: rgba(214, 233, 225, 0.836);
+      position: relative;
+      bottom: 5px;
+      padding: 50px 30px 10px 30px;
+    
+    
+    }
+
+
+    .abarca {
+
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .contenedor {
+
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    
+    
+    }
+    
+    .sub-contenedor {
+    
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 100px 20px 0 20px;
+     
+      
+    }
+    
+    .sub-contenedor h1{
+    
+      font-family: 'Abril Fatface', cursive;
+      text-align: center;
+      font-size: 25px;
+    }
+    
+    .sub-conten h1{
+    
+      font-family: 'Abril Fatface', cursive;
+      text-align: center;
+      font-size: 30px;
+    }
+    
+    .sub-conten {
+    
+    width: 100%;
+    padding: 40px 30px 0 30px;
+    text-align: center;
+    margin-right: 100px;
+    }
+    
+    .sub-conten p {
+    
+      margin-top: 20px;
+      font-family: 'Pathway Gothic One', sans-serif;
+      font-size: 30px;
+    }
+    
+    button {
+    
+      width: 50%;
+      color: #000000;
+      font-family: 'Pathway Gothic One', sans-serif;
+      font-size: 40px;
+      margin-top: 20px;
+      border: 3px solid #fff;
+      border-radius: 5px;
+      background: rgba(0, 0, 0, 0.2);
+    
+    }
+    
+    button:hover {
+    
+      background: #a3d0e2;
+      border: none;
+    }
+    
+    
+    .cont {
+    
+      display: flex;
+      flex-direction: column;
+      margin-top: 260px;
+      width: 100%;
+    
+    }
+    
+    .cont h1 {
+    
+    font-size: 30px;
+    }
+    
+    .cont h2 {
+    
+      font-size: 50px;
+      font-family: 'Abril Fatface', cursive;
+      position: absolute;
+      top: 47cm;
+      left: 2cm;
+      width: 100%;
+      }
+      
+    
+    
+    
+    
+    
+    
+    
+      .footer {
+	
+        position: relative;
+        clear: both;
+        bottom: 0;
+        background:rgba(0, 0, 0, 0.3); 
+        width: 100%;
+        height: 90px;
+        padding-top: 60px;
+        
+        }
+        
+        .footer ul.social-network li {
+        
+        display:inline;
+        background-color: rgba(0, 0, 0, 0.2);
+        padding: 5px 7px 5px 7px;
+        border-radius: 1000cm;
+        font-size:25px;	
+        margin-left:1px;
+        font-size: 20px;
+        
+        
+         
+        
+        }
+        
+        .footer ul.social-network li a {
+        color: rgba(0, 0, 0, 0.4);
+        cursor: pointer;
+        text-decoration: none;
+        }
+        
+        
+        
+        .social-network li:hover .icon-twitter {
+        color: #00abf0;
+        }
+        .social-network li:hover .icon-facebook {
+        color: #39579a;
+        }
+        
+        .social-network li:hover .icon-youtube {
+        color: rgb(236, 40, 26); 
+        }
+        
+        
+        .copyright {
+          
+        text-align: right;
+        font-weight: bolder ;
+        color: rgb(0, 0, 0);
+        align-items: flex-end;
+        position: relative;
+        right: 10px;
+        bottom: 40px;
+        font-size: 9px;
+        
+        
+          }
+          
+}

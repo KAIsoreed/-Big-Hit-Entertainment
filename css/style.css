@@ -1,0 +1,930 @@
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box ;  
+}
+
+
+body {
+
+	background-color:#fff ;
+  overflow-x:hidden;
+  
+  
+}
+
+
+	/*Este es el HEADER*/
+
+  .menu_bar {
+    display: none;
+  }
+  
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2000;
+
+}
+
+header nav {
+	background: rgba(0, 0, 0, 0.2); 
+	z-index: 2000;
+	
+}
+
+header nav .logotipo .logo img {
+	width: 90px;
+	display: block;
+	float: right;
+	padding: 4px;
+	margin-right: 50px;
+
+}
+
+header nav ul {
+	text-decoration: none;
+}
+
+header nav ul li {
+	display: inline-block;
+	position: relative;
+}
+
+header nav ul li:hover {
+     background:#99D2B1;
+}
+
+header nav ul li a{
+	color: #fff;
+	display: block;
+	text-decoration: none;
+  padding: 20px;
+  
+  text-decoration: none;
+}
+
+header nav ul li a span {
+  margin-right: 10px;
+}
+
+header nav ul li:hover .children {
+       display:block;
+}
+
+header nav ul li .children {
+	display: none;
+	background: #7DCEA0;
+	position: absolute;
+	z-index: 1000;
+	width: 100%;
+}
+
+header nav ul li .children li {
+	display: block;
+
+}
+
+
+
+
+
+
+/*===========================
+  about
+============================ */
+
+
+.container {
+
+  max-width: 100%;
+  margin-top: 5cm;
+  margin-bottom: 7cm;
+}   
+
+.sub-container {
+
+  margin-left: 1cm;
+} 
+
+
+
+.container .sub-container article {
+
+  text-align: center;
+}
+
+.container .sub-container article h2 {
+
+  font-size: 80px;
+  font-weight: bold;
+  font-family:'Staatliches', cursive;
+  color: #000000;
+}
+
+.container .sub-container article p {
+  font-size: 20px;
+  color: rgba(68, 58, 58, 0.884);
+  font-family:'Staatliches', cursive;
+
+}
+
+.contenedor {
+
+  max-width: 100%;
+  background-image: url(../Image/BTS.jpg);
+  background-size: 1080px 608px;
+ 
+}
+
+.sub-contenedor {
+ height:20cm;
+
+}
+
+.contenedor .sub-contenedor article{
+
+  color: #fff;
+
+}
+.contenedor .sub-contenedor article h2{
+
+  font-family: fantasy;
+  font-size: 110px;
+  position: absolute;
+  right: 7cm;
+  padding-top: 7cm;
+  font-family:'Staatliches', cursive;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  
+
+}
+
+.contenedor .sub-contenedor article p {
+
+  padding-right: 10px;
+  width: 40%;
+  font-size: 25px;
+  padding-top: 4cm;
+  padding-left: 68px;
+  font-family: 'Reem Kufi', sans-serif;
+
+
+
+}
+
+.con {
+
+  background-image: url(../Image/banner.png);
+  background-repeat: no-repeat;
+  background-size: 1400px 756px ;
+  max-width: 100%;
+
+
+}
+
+.sub-con {
+  height: 20cm;
+
+}
+
+.con .sub-con article {
+  color: #000000;
+
+}
+
+.con .sub-con article h2 {
+
+  font-size: 110px;
+  position: absolute;
+  left: 4cm;
+  padding-top: 7cm;
+  font-family:'Staatliches', cursive;
+  /* text-shadow: black 0.1em 0.1em 0.2em; */
+}
+
+.con .sub-con article p {
+
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  right: 7cm;
+  padding-top: 7cm;
+  width: 40%;
+  font-family: 'Reem Kufi', sans-serif;
+}
+
+
+.conet {
+
+  max-width: 100%;
+  background-color: #000000;
+  
+}
+
+.sub-conet {
+
+  height: 21cm;
+
+}
+
+.conet .sub-conet article {
+
+  color: #fff;
+}
+
+.conet .sub-conet article h2 {
+
+  font-size: 120px;
+  font-family:'Staatliches', cursive;
+  position: absolute;
+  padding-top: 8cm;
+  right: 6cm;
+}
+
+.conet .sub-conet article p {
+
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 30px;
+  position: absolute;
+  left: 3cm;
+  width: 40%;
+  padding-top: 8cm;
+}
+
+.about {
+
+  max-width: 100%;
+  background-image: url(../Image/banner.png);
+  background-repeat: no-repeat;
+  background-size: 1400px 830px ;
+}
+
+.about .sub-about {
+
+  height:830px;
+}
+
+.about .sub-about article {
+
+  color: #000000;
+  
+}
+
+.about .sub-about article h2 {
+
+   font-size: 100px;
+   font-family:'Staatliches', cursive;
+   position: absolute;
+   left: 4cm;
+   padding-top: 8cm;
+
+}
+
+.about .sub-about article p {
+
+ 
+  font-size: 20px;
+  position: absolute;
+  right: 4cm;
+  padding-top: 6cm;
+  width: 50%;
+}
+
+.about-us {
+  
+
+  max-width: 100%;
+  background-color: black;
+  margin-bottom: 60px;
+
+
+}
+
+.sub-about-us {
+
+height: 800px;
+}
+
+.about-us .sub-about-us article {
+  
+  
+  color: #fff;
+}
+
+.about-us .sub-about-us article h2 {
+
+  font-size: 100px;
+  position: absolute;
+  right: 4cm;
+  padding-top: 8cm;
+  font-family:'Staatliches', cursive;
+
+}
+
+
+.about-us .sub-about-us article p {
+
+  font-size: 30px;
+  width: 50%;
+  padding-top: 8cm;
+  position: absolute;
+  left: 50px;
+  font-family: 'Reem Kufi', sans-serif;
+}
+
+
+/* profile */
+
+.media-container .media-object{
+
+  position: relative;
+  left: 100px;
+  top: 5cm;
+  
+
+}
+
+.media-container h4 {
+
+  position: relative;
+  left: 18cm;
+  bottom: 7cm;
+  font-size: 30px;
+  font-family: 'Trocchi', serif;
+}
+
+.media-container p {
+
+  position: relative;
+  left: 18cm;
+  bottom: 6cm;
+  font-size: 20px;
+  width: 40%;
+  font-family: 'Trocchi', serif;
+}
+
+.media-conten .media-objects{
+
+  position: relative;
+  top: 2cm;
+  left: 760px;
+}
+
+.media-conten h4{
+ position: relative;
+ bottom: 9cm;
+ right: 650px;
+ text-align: right;
+ font-family: 'Trocchi', serif;
+ font-size: 30px;
+
+}
+
+.media-conten p {
+  
+  position: relative;
+  left:160px;
+  font-size: 20px;
+  width: 40%;
+  font-family: 'Trocchi', serif;
+  bottom: 7cm;
+  text-align: right;
+  
+}
+
+.media-container h5 {
+
+  font-size: 100px;
+  font-family:'Staatliches', cursive;
+  position: relative;
+  left: 540px;
+  bottom: 490px;
+
+
+}
+
+/*===========================
+  Footer
+============================ */
+
+
+.footer {
+  position: relative;
+  bottom: 0;
+  background-color:rgba(0, 0, 0, 0.2); 
+  width: 100%;
+  height: 90px;
+  padding-top: 50px;
+
+}
+
+.footer ul.social-network li {
+
+  display:inline;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 6px 8px 3px 8px;
+  border-radius: 1000cm;
+	font-size:25px;	
+  margin-left:60px;
+  font-size: 32px;
+  position: relative;
+  left: 30px;
+  bottom: 23px;
+  
+  
+
+}
+
+.footer ul.social-network li a {
+  color: rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+}
+
+.social-network li:hover .icon-twitter {
+  color: #00abf0;
+}
+.social-network li:hover .icon-facebook {
+  color: #39579a;
+}
+
+.social-network li:hover .icon-youtube {
+  color: rgb(236, 40, 26); 
+}
+
+
+.copyright {
+	
+  text-align: right;
+  font-weight: bolder ;
+  color: rgb(0, 0, 0);
+  align-items: flex-end;
+  position: relative;
+  right: 20px;
+  bottom: 48px;
+
+
+}
+
+
+
+@media (max-width: 850px) {
+
+  body {
+		padding-top: 80px;
+	}
+
+	.menu_bar {
+		z-index: 1000;
+		position: fixed;
+		display: block;
+		width: 100%;
+		top:0;
+		background: rgba(0, 0, 0, 0.2);
+	}
+
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 20px;
+		overflow: hidden;
+		font-size: 20px;
+		font-weight: bold;
+		text-decoration: none;
+		color: #fff;
+	}
+
+	
+
+	.menu_bar span {
+		float: right;
+		font-size: 40px;
+	}
+
+	.menu_bar img {
+		display:block;
+		width: 80px;
+		position: relative;
+    top:3px;
+    
+
+	}
+
+	header nav {
+    width: 80%;
+		position: fixed;
+		right:100%;
+    margin: 0px;
+  	overflow: scroll;
+    height: calc(100% - 80px);
+    margin-top: 88px;
+	}
+
+	header nav .logotipo .logo img {
+		display: none;
+	}
+
+	header nav ul li {
+		display: block;
+		border-bottom: 1px solid rgba(255,255,255,.5);
+	}
+	header nav ul li a {
+		display: block;
+	}
+
+	header nav ul li .children {
+		width: 100%;
+		position: relative;
+  }
+  
+  
+.container {
+
+  max-width: 100%;
+  margin-top: 3cm;
+  margin-bottom: 7cm;
+}   
+
+.sub-container {
+  
+  margin-left: 11px;
+} 
+
+
+
+.container .sub-container article {
+
+  text-align: center;
+}
+
+
+.container .sub-container article h2 {
+
+  font-size: 80px;
+  
+  font-weight: bold;
+  font-family:'Staatliches', cursive;
+  color: #000000;
+}
+
+.container .sub-container article p {
+  font-size: 20px;
+  color: rgba(68, 58, 58, 0.884);
+  font-family:'Staatliches', cursive;
+  
+
+}
+
+
+.contenedor {
+
+  max-width: 100%;
+  background-image: url(../Image/BTS.jpg);
+  background-size: 100% 750px;
+  background-repeat: no-repeat;
+ 
+}
+
+
+
+.contenedor .sub-contenedor article{
+
+  color: #fff;
+
+}
+.contenedor .sub-contenedor article h2{
+
+  font-family:'Staatliches', cursive; 
+  font-size: 70px;
+  position: absolute;
+  right: 3cm;
+  padding-top: 3cm;
+  font-family:'Staatliches', cursive;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  
+
+}
+
+.contenedor .sub-contenedor article p {
+
+  
+  width: 90%;
+  font-size: 20px;
+  padding-top: 7cm;
+  padding-left: 20px;
+  font-family: 'Reem Kufi', sans-serif;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  text-align: center;
+
+
+}
+
+.con {
+
+  background-image: url(../Image/banners.png);
+  background-repeat: no-repeat;
+  background-size: 100% 900px ;
+  max-width: 100%;
+ 
+
+
+}
+
+
+
+.con .sub-con article {
+  color: #000000;
+
+}
+
+.con .sub-con article h2 {
+
+  font-size: 110px;
+  position: absolute;
+  left: 3cm;
+  padding-top: 3cm;
+  font-family:'Staatliches', cursive;
+  
+}
+
+.con .sub-con article p {
+
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  right: 1cm;
+  padding-top: 9cm;
+  width: 80%;
+  font-family: 'Reem Kufi', sans-serif;
+  text-align: center;
+}
+
+
+.conet {
+
+  max-width: 100%;
+  background-color: #000000;
+  
+}
+
+.sub-conet {
+
+  height: 21cm;
+
+}
+
+.conet .sub-conet article {
+
+  color: #fff;
+}
+
+.conet .sub-conet article h2 {
+
+  font-size: 120px;
+  font-family:'Staatliches', cursive;
+  position: absolute;
+  padding-top: 2cm;
+  right: 3cm;
+}
+
+.conet .sub-conet article p {
+
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 30px;
+  position: absolute;
+  left: 60px;
+  width: 80%;
+  padding-top: 10cm;
+  text-align: center;
+}
+
+.about {
+
+  max-width: 100%;
+  background-image: url(../Image/banners.png);
+  background-repeat: no-repeat;
+  background-size: 100% 850px ;
+}
+
+
+
+.about .sub-about article {
+
+  color: #000000;
+  
+}
+
+.about .sub-about article h2 {
+
+   font-size: 100px;
+   font-family:'Staatliches', cursive;
+   position: absolute;
+   left: 3cm;
+   padding-top: 3cm;
+
+}
+
+.about .sub-about article p {
+
+ 
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 15px;
+  position: absolute;
+  right: 6px;
+  padding-top: 7cm;
+  width: 90%;
+  text-align: center;
+}
+
+.about-us {
+  
+
+  max-width: 100%;
+  background-color: black;
+  margin-bottom: 60px;
+
+
+}
+
+.sub-about-us {
+
+height: 800px;
+}
+
+.about-us .sub-about-us article {
+  
+  
+  color: #fff;
+}
+
+.about-us .sub-about-us article h2 {
+
+  font-size: 100px;
+  position: absolute;
+  right: 1cm;
+  padding-top: 4cm;
+  font-family:'Staatliches', cursive;
+
+}
+
+
+.about-us .sub-about-us article p {
+
+  font-size: 20px;
+  width: 80%;
+  padding-top: 10cm;
+  position: absolute;
+  left: 48px;
+  font-family: 'Reem Kufi', sans-serif;
+  text-align: center;
+}
+
+
+/* profile */
+
+.media-container .media-object{
+
+  position: relative;
+  left: 0px;
+  top: 5cm;
+  
+
+}
+
+.media-container h4 {
+
+  position: relative;
+  left: 10px;
+  top: 80px;
+  font-size: 30px;
+  font-family: 'Trocchi', serif;
+  text-align: center;
+}
+
+.media-container p {
+
+  position: relative;
+  left: 50px;
+  top: 130px;
+  font-size: 20px;
+  width: 80%;
+  font-family: 'Trocchi', serif;
+  text-align: center;
+}
+
+.media-conten .media-objects{
+  position: relative;
+  left: 0px;
+  top: 5cm;
+}
+
+.media-conten h4{
+
+  position: relative;
+  left: 10px;
+  top: 200px;
+  font-size: 30px;
+  font-family: 'Trocchi', serif;
+  text-align: center;
+
+}
+
+.media-conten p {
+ 
+  
+  position: relative;
+  left: 50px;
+  top: 250px;
+  font-size: 20px;
+  width: 80%;
+  font-family: 'Trocchi', serif;
+  text-align: center;
+
+}
+
+.media-container h5 {
+
+  font-size: 100px;
+  font-family:'Staatliches', cursive;
+  position: relative;
+  left: 100px;
+  bottom: 490px;
+
+
+}
+
+/*===========================
+  Footer
+============================ */
+
+
+.footer {
+  margin-top: 10cm;
+  position: static;
+  bottom: 0;
+  background:rgba(0, 0, 0, 0.3); 
+  width: 100%;
+  height: 55px;
+  padding-top: 50px;
+
+}
+
+.footer ul.social-network li {
+
+  display:inline;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 5px 7px 5px 7px;
+  border-radius: 1000cm;
+	font-size:25px;	
+  margin-left:20px;
+  font-size: 20px;
+
+ 
+
+}
+
+.footer ul.social-network li a {
+  color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.social-network li .icon-facebook {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.social-network li:hover .icon-twitter {
+  color: #00abf0;
+}
+.social-network li:hover .icon-facebook {
+  color: #39579a;
+}
+
+.social-network li:hover .icon-youtube {
+  color: rgb(236, 40, 26); 
+}
+
+
+.copyright {
+	
+  text-align: right;
+  font-weight: bolder ;
+  color: rgb(0, 0, 0);
+  align-items: flex-end;
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+  font-size: 8px;
+
+
+}
+}
